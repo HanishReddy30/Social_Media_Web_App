@@ -1,0 +1,199 @@
+.auth-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.auth-container form div {
+  margin-bottom: 15px;
+}
+
+.auth-container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.auth-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.auth-container button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.home-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.create-post-container {
+  margin-bottom: 20px;
+}
+
+.create-post-container textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-sizing: border-box;
+  resize: vertical;
+  min-height: 100px;
+}
+
+.create-post-container button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.create-post-container button:hover {
+  background-color: #0056b3;
+}
+
+.post-container {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.post-header h3 {
+  margin: 0 0 10px 0;
+  color: #333;
+}
+
+.post-content p {
+  margin: 10px 0;
+  color: #666;
+}
+
+.post-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.post-actions button {
+  padding: 5px 10px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.post-actions button:hover {
+  background-color: #e9ecef;
+}
+
+.post-actions button.liked {
+  background-color: #007bff;
+  color: white;
+}
+
+.post-actions button.liked:hover {
+  background-color: #0056b3;
+}
+
+.comments-section {
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+}
+
+.comment {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f8f9fa;
+  border-radius: 3px;
+}
+
+.comment h4 {
+  margin: 0 0 5px 0;
+  color: #333;
+}
+
+.comment p {
+  margin: 0;
+  color: #666;
+}
+
+.comment-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-sizing: border-box;
+  resize: vertical;
+  min-height: 50px;
+  margin-bottom: 10px;
+}
+
+.comment-form button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.comment-form button:hover {
+  background-color: #0056b3;
+}
+
+.profile-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.profile-header h1 {
+  margin-bottom: 10px;
+}
+
+.profile-header button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.profile-header button:hover {
+  background-color: #0056b3;
+}
